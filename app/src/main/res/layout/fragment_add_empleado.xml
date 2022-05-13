@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -49,10 +50,11 @@
 
     <ImageView
         android:id="@+id/avatar"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="350dp" />
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/ic_launcher_foreground" />
 
     <EditText
         android:id="@+id/editID"
